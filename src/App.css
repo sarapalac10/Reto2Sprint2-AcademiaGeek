@@ -1,3 +1,13 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-size: 100%;
+}
+
 .App {
   text-align: center;
 }
@@ -36,3 +46,104 @@
     transform: rotate(360deg);
   }
 }
+
+.timer {
+  background-image: url(./image/bg-stars.svg);
+  background-position: center;
+  background-size: cover;
+}
+
+.timer {
+  background-color: hsl(235, 16%, 14%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 8em;
+  padding-top: 8em;
+  width: 100%;
+  height: 100%;
+}
+
+h1{
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-family: 'Red Hat Text', sans-serif;
+  color: hsl(0, 0%, 100%);
+  letter-spacing: 0.25em;
+}
+
+.timer div:last-child {
+  border: 1px solid #fff;
+  border-radius: 3px;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  margin-top: 3em;
+  padding: 3em;
+  text-align: center;
+}
+
+section p:first-child, .timer div:last-child span {
+  font-size: 2em;
+  font-family: 'Red Hat Text', sans-serif;
+  color: hsl(345, 95%, 68%);
+}
+
+@media (min-width: 375px ) {
+  .number-container{
+    width: 100%;
+  }
+
+  section p:first-child, .timer div:last-child span {
+    font-size: 3em;
+    font-family: 'Red Hat Text', sans-serif;
+    color: hsl(345, 95%, 68%)
+  }
+
+  .number{
+    padding: 1rem;
+  }
+
+}
+
+small {
+  text-transform: uppercase;
+  font-family: 'Red Hat Text', sans-serif;
+  color: hsl(237, 18%, 59%)
+}
+
+.number {
+  border: solid 1px hsl(236, 21%, 26%);
+  background-color: hsl(236, 21%, 26%);
+  border-radius: 15px;
+  margin-bottom: 1rem;
+  padding: 0.2rem;
+}
+
+.footer{
+  background-color: hsl(235, 16%, 14%);
+  background-image: url(./image/pattern-hills.svg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-bottom: 2em;
+  padding-top: 10em;
+}
+
+.logos{
+  position: relative;
+  height: 30px;
+  width: 30%;
+  margin: auto;
+  margin-bottom: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content:space-around;
+  text-align: center;
+  color: #8584a5;
+  font-size: 30px;
+}
+
+
+
