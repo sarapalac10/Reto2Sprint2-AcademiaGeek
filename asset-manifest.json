@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Reto2Sprint2-AcademiaGeek/static/css/main.bf1e4fe4.css",
+    "main.js": "/Reto2Sprint2-AcademiaGeek/static/js/main.44868fd8.js",
+    "static/media/bg-stars.svg": "/Reto2Sprint2-AcademiaGeek/static/media/bg-stars.166881a1c03d6b1239f5.svg",
+    "index.html": "/Reto2Sprint2-AcademiaGeek/index.html",
+    "static/media/pattern-hills.svg": "/Reto2Sprint2-AcademiaGeek/static/media/pattern-hills.815d688fd937623063b5.svg",
+    "main.bf1e4fe4.css.map": "/Reto2Sprint2-AcademiaGeek/static/css/main.bf1e4fe4.css.map",
+    "main.44868fd8.js.map": "/Reto2Sprint2-AcademiaGeek/static/js/main.44868fd8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bf1e4fe4.css",
+    "static/js/main.44868fd8.js"
+  ]
+}
